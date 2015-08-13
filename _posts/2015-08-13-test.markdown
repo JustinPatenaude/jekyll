@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Test"
+date:   2015-08-13 15:14:09
+categories: jekyll update
+---
+This is a test.
+
+I wonder how this works. [Link to my website](http://justinpatenaude.com).
