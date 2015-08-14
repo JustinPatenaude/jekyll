@@ -12,3 +12,17 @@ github_username:  JustinPatenaude
 
 # Build settings
 markdown: kramdown
+
+# Prose settings
+prose:
+  root: 'jekyll'
+  siteurl: 'http://justinpatenaude.github.io/jekyll/'
+  media: '_media'
+  ignore:
+    - index.html
+    - _config.yml
+    - /_layouts
+    - /_includes
+    - /_sass
+    - .gitignore
+    - feed.xml
