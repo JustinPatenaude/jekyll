@@ -4,7 +4,7 @@ var userName = "JustinPatenaude";
 
 var github = new Github({
   username: "JustinPatenaude",
-  password: "froggy951753",
+  password: "",
   auth: "basic"
 });
 
@@ -18,5 +18,7 @@ $('.save_page').click(function(){
   var newContents = $('.show_page').val();
   repo.write('gh-pages', 'index.html', newContents, 'Updated from website', function(err) {});
 });
+
+$()
 
 });
