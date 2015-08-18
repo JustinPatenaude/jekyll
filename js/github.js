@@ -607,7 +607,7 @@
       // -------
 
       this.read = function(branch, path, cb) {
-        _request("GET", repoPath +encodeURI(path) + (branch ? "?ref=" + branch : ""), null, function(err, obj) {
+        _request("GET", repoPath + "/contents/"+encodeURI(path) + (branch ? "?ref=" + branch : ""), null, function(err, obj) {
           if (err && err.error === 404) return cb("not found", null, null);
 
           if (err) return cb(err);

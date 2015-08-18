@@ -27,6 +27,16 @@ $content-width:    800px;
 $on-palm:          600px;
 $on-laptop:        800px;
 
+.admin textarea {
+    width: 100%;
+    max-width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: monospace;
+    font-size: 14px;
+    min-height: 500px;
+    padding: 10px 15px;
+}
 
 
 // Using media queries with like this:
