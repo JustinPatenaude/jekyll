@@ -6,7 +6,7 @@ var github = new Github({
   auth: "basic"
 });
 
-var repo = github.getRepo(JustinPatenaude, jekyll);
+var repo = github.getRepo(github, 'jekyll');
 
 console.log(repo);
 
