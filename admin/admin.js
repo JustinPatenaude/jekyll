@@ -2,7 +2,9 @@ $(function() {
 
 var userName = "JustinPatenaude";
 
-window.open('https://github.com/login/oauth/authorize?client_id=e4a530296caca9a0979d&state=fhf74hfgdje8hfgfjhdg4627');
+$('.github_login').click(function(){
+  window.open('https://github.com/login/oauth/authorize?client_id=e4a530296caca9a0979d&state=fhf74hfgdje8hfgfjhdg4627');
+});
 
 var github = new Github({
   username: "JUSTINPATENAUDE",
