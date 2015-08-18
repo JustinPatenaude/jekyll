@@ -10,7 +10,7 @@ var repo = github.getRepo(github, 'jekyll');
 
 console.log(repo);
 
-repo.read('gh-pages', 'jekyll/about.md', function(err, data) {
+repo.read('gh-pages', 'about.md', function(err, data) {
   $('.show_page').html(data);
 });
 
