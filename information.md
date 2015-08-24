@@ -1,5 +1,5 @@
 ---
-title: Information 2
+title: Information Test
 layout: page
 permalink: /information/
 ---
